@@ -63,13 +63,13 @@ public class EmailModel {
         return text_letter;
     }
     public boolean searchItem(String textToSearch){
-        if(name.contains(textToSearch))
+        if(name.toUpperCase().contains(textToSearch.toUpperCase()))
             return true;
-        else if(text_content.contains(textToSearch))
+        else if(text_content.toUpperCase().contains(textToSearch.toUpperCase()))
             return true;
-        else if(text_subject.contains(textToSearch))
+        else if(text_subject.toUpperCase().contains(textToSearch.toUpperCase()))
             return true;
-        else if(text_time.contains(textToSearch))
+        else if(text_time.toUpperCase().contains(textToSearch.toUpperCase()))
             return true;
         else return false;
     }
