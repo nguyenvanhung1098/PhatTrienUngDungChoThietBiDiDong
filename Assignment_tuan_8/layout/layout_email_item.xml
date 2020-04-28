@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/text_letter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle_background"
+        android:gravity="center"
+        android:text="T"
+        android:textSize="32sp"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Piter"
+        android:layout_toRightOf="@+id/text_letter"
+        android:layout_marginLeft="10dp"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/text_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text_letter"
+        android:layout_below="@+id/text_name"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/image_favorite"
+        android:text="Hello. How are you?"
+        android:singleLine="true"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/text_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text_letter"
+        android:layout_below="@+id/text_subject"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/image_favorite"
+        android:singleLine="true"
+        android:text="What are you doing?"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="12:00 AM"
+        android:textSize="16sp"/>
+    <ImageView
+        android:id="@+id/image_favorite"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_star_normal"/>
+</RelativeLayout>
