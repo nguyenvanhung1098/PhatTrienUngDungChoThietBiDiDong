@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_toEndOf="@+id/mssv"
         android:layout_marginTop="5dp"
-        android:text="2015xxxx"/>
+        android:text="20160723"/>
 
     <TextView
         android:id="@+id/tv_name"
@@ -44,7 +44,7 @@
         android:layout_toEndOf="@+id/mssv"
         android:layout_below="@+id/mssv"
         android:layout_marginTop="5dp"
-        android:text="nguyễn văn a"/>
+        android:text="Pham Ngoc Du"/>
 
     <TextView
         android:id="@+id/tv_address"
@@ -53,7 +53,7 @@
         android:layout_toEndOf="@+id/mssv"
         android:layout_below="@+id/name"
         android:layout_marginTop="5dp"
-        android:text="hanoi"/>
+        android:text="Thai Binh"/>
 
     <TextView
         android:id="@+id/birth"
@@ -78,7 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/birth"
         android:layout_marginTop="5dp"
-        android:text="xx/xx/xxxx"/>
+        android:text="29/11/1998"/>
 
     <TextView
         android:id="@+id/tv_email"
@@ -87,5 +87,5 @@
         android:layout_toEndOf="@+id/email"
         android:layout_below="@id/tv_date"
         android:layout_marginTop="5dp"
-        android:text="xxxx@gmai.com"/>
+        android:text="ngocdu12a1@gmai.com"/>
 </RelativeLayout>

@@ -100,10 +100,10 @@ public class MyDataBaseHelper extends SQLiteOpenHelper {
     }
 
     public void createDefault(){
-        Student student1 = new Student("201xxxxx", "Nguyen Van A", "xx/xx/xxxx",
-                "xxxxxx@gmail.com", "hanoi");
-        Student student2 = new Student("201xxxxx", "Nguyen Thi B", "xx/xx/xxxx",
-                "xxxxxxx@gmail.com", "Ha Noi");
+        Student student1 = new Student("20160723", "Pham Ngoc Du", "29/11/1998",
+                "ngocdu12a1@gmail.com", "Thai Binh");
+        Student student2 = new Student("20161234", "Pham Ngoc Duong", "08/02/2008",
+                "ngocduong12a1@gmail.com", "Ha Noi");
 
         this.addStudent(student1);
         this.addStudent(student2);

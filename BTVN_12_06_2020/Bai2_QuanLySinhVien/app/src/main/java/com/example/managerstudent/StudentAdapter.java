@@ -54,7 +54,7 @@ public class StudentAdapter extends BaseAdapter {
         return view;
     }
 
-    
+    // up date du lieu moi
     public void updateData(List<Student> items){
         this.items = items;
         notifyDataSetChanged();
